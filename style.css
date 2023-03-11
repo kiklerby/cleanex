@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4em;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-height: 100vh;
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 0;
+    height: 10%;
+}
+
+.menu {
+    width: calc(100% - 4em);
+    height: 10%;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+    background-color: #505370;
+    color: white;
+    font-size: 24px;
+}
+.logo{
+    font-size: 48px;
+    font-family: 'iceberg', sans-serif;
+}
+
+.menu_item {
+    margin-right: 1em;
+    display: flex;
+
+}
+
+.menu_small_icon {
+    display: none;
+}
+
+.menu-small {
+    display: none;
+    height: 2em;
+}
+
+.menu_small_item {
+    display: none;
+}
+
+.stick {
+    width: 80%;
+    height: 5px;
+    background: black;
+}
+
+.inner {
+    display: flex;
+    padding: 1em 0 0 0;
+    width: 80%;
+    height: auto;
+    justify-content: center;
+}
+
+@media (max-width: 650px) {
+    .menu {
+        display: none;
+
+    }
+
+    .menu-small {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        position: fixed;
+        background: white;
+        transform: translateX(-100%);
+        background-color: #505370;
+    }
+
+    .menu_small_item {
+        height: 2em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 170px;
+        font-size: 24px;
+        color: white;
+    }
+
+    .menu_small_item:first-child {
+        padding-top: calc(50px + 2em);
+    }
+
+    .menu_small_icon {
+        position: fixed;
+        top: 1em;
+        left: 1em;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        z-index: 1;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .inner {
+        padding-top: calc(50px + 2em);
+    }
+
+    .inner p {
+        margin: 0
+    }
+}
+
+
+.disc{
+    padding-top: 1em;
+    background-image:url(images/car.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    height: 28em;
+    z-index: 2;
+}
+.logo1{
+    font-family: 'iceberg', sans-serif;
+}
+.discs{
+    font-size: 64px;
+    font-weight: 200;
+}
+.cleanex{
+    display: flex;
+    justify-content: center;
+    justify-items:center;
+    text-align: center;
+}
+.four{
+    display: flex;
+    padding-top: 3em;
+    justify-content: space-around;
+}
+.two{
+    display: flex;
+    justify-content: center;
+    color: #3A75C4;
+}
+.three{
+    display: flex;
+    justify-content: center;
+}
+.one{
+    text-align: center;
+}
+
+
+.wash{
+    background: #3A75C4;
+    color: white;
+}
+.wash1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.wash2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.dop{
+    padding-top: 1em;
+    color: white;
+    height: 30em;
+    z-index: 2;
+    text-align: center;
+    background-color: #505370;
+}
+.dop1{
+    display: flex;
+    justify-content: center;
+    
+}
+.dop2{
+    display: flex;
+    padding-top: 2em;
+    justify-content: space-around;
+}
+.dop3{
+    background-image:url(images/kuzow.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20%;
+    height: 16em;
+}
+.dop4{
+    background-image:url(images/kuzow2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20%;
+    height: 16em;
+}
+.dop5{
+    background-image:url(images/kuzow3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20%;
+    height: 16em;
+}
+
+.price{
+    padding: 2em;
+}
+button {
+    padding: 1em;
+    color: white;
+    background: #292b3b;
+    border-color: black;
+    font-size: 32px;
+}
+
+.map11{
+    padding-top: 1em;
+    color: white;
+    height: 18em;
+    text-align: center;
+    background-color: #3A75C4;
+}
+
+#map {
+    height: 215px;
+    width: 40%
+}
+
+footer{
+    background-color:#505370;
+    padding: 1em;
+    color: white;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color:#292b3b
+}

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-image:url(images/auti2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+}
+
+.header {
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.CLEANEX{
+    font-size: 6em;
+    font-family: 'iceberg', sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: calc(100vh - 10em);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    margin: 1.5em;
+    padding: 1em;
+    border-color: #72090b;
+    color: #72090b;
+}
+
+h2 {
+    text-align: center;
+}
+
+button {
+    padding: 1em;
+    margin: 1.5em;
+    color: #72090b;
+    background: white;
+    border-color: #72090b;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.login{
+    color:rgb(68, 54, 54);
+    padding: 1em;
+    margin: 1.5em;
+    background: rgb(255, 255, 255);
+    border-color: #72090b;
+}
+.info{
+    font-size: 14px;
+    color: rgb(146, 146, 146);
+}
+
+a{
+    text-decoration: none;
+    color: #72090b;
+}
+a:hover{
+    color:#292b3b
+}
